@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function Cities() {
     return (
         <div>
-        Home
+        Cities
         </div>
     )
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function PlanTrip() {
     return (
         <div>
-        Home
+        Plan Your Trip
         </div>
     )
 }
