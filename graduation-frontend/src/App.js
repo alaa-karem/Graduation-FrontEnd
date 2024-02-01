@@ -25,8 +25,11 @@ function App() {
           <Route path='cities' element={<Cities/>}/>
           <Route path='car-rental' element={<CarRental/>}/>
           <Route path='plan-a-trip' element={<PlanTrip/>}/>
-
-          <Route path='register' element={<Register/>}/>    {/* nested */}
+{/* nested */}
+          <Route path='register' element={<Register/>}>  
+            <Route path='register-as-tourist' element={<RegisterAsTourist/>}/>
+            <Route path='register-as-tourguide' element={<RegisterAsTourGuide/>}/>
+          </Route>  
           <Route path='login' element={<Login/>}/>
 
         </Routes>

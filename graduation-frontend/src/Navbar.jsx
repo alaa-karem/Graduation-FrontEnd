@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-
 export default function Navbar() {
     return (
         <div>
@@ -28,18 +27,18 @@ export default function Navbar() {
                         </li>
 
                         <li class="nav-item">
-                        <Link class="nav-link active" aria-current="page" to="plan-a-trip">Plan A Trip</Link>
+                        <Link class="nav-link active" aria-current="page" to="plan-a-trip">Plan-Trip</Link>
                         </li>
                         
                     </ul>
 
                     <ul class="navbar-nav  mb-2 mb-lg-0">
 
-                    <li className="nav-item">
-                        <Link className="nav-link" to="search">
-                        <FontAwesomeIcon icon={faSearch} />
-                        </Link>
-                    </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="search">
+                            <FontAwesomeIcon icon={faSearch} />
+                            </Link>
+                        </li>
 
                         <li class="nav-item">
                         <Link class="nav-link active" aria-current="page" to="register">Register</Link>
@@ -50,6 +49,10 @@ export default function Navbar() {
                         </li>
                         
                     </ul>
+
+
+
+                    
 
                     
 
