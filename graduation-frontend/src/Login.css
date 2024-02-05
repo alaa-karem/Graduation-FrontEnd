@@ -1,0 +1,154 @@
+.popup-container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+}
+
+.form-container {
+    flex: 1;
+    position: relative;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px; /* Adjusted font size for better visibility */
+    position: absolute;
+    left: 12%;
+    font-weight: bold;
+}
+
+.icon-signin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 36%;
+    top: 80px; /* Adjusted top position for better alignment */
+    transform: translateX(-50%);
+    color:  #076B66;
+}
+
+.forgot-pass {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 18%;
+    top: 100px;
+    font-weight: bold; /* Added to make the text bold */
+    text-decoration: none; /* Removed underline */
+    color:  #076B66; /* Adjusted text color */
+    outline: none;
+}
+
+.ion-icon-email{
+    position: absolute;
+    top: 174px;
+    left: 44px; /* Adjusted left position for better alignment */
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+.ion-icon-password{
+    position: absolute;
+    top: 235px;
+    left: 44px; /* Adjusted left position for better alignment */
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+/* Styles for input fields */
+.email-input{
+    width: calc(100% - 150px);
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+    position: absolute;
+    top: 140px;
+    border-radius: 30px;
+    background-color: #E9E9E9;
+    border: 1px solid transparent; /* Set initial border color to transparent */
+}
+.pass-input{
+    width: calc(100% - 150px);
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+    position: absolute;
+    top: 200px;
+    border-radius: 30px;
+    background-color: #E9E9E9;
+    border: 1px solid transparent; /* Set initial border color to transparent */
+}
+
+/* Hide icons only when their associated input is in focus */
+.email-input:focus + .ion-icon-email,
+.pass-input:focus + .ion-icon-password {
+    opacity: 0;
+}
+
+/* Hide icons only when have a content */
+.email-input:not(:placeholder-shown) + .ion-icon-email,
+.pass-input:not(:placeholder-shown) + .ion-icon-password {
+    opacity: 0;
+}
+
+.email-input:focus,
+.pass-input:focus {
+    outline: none;
+    border-width: 2px;
+    border-color: #076B66;
+}
+
+.btn-submit{
+    width: calc(100% - 320px);
+    margin-top: 20px;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    border-radius: 50px; /* Adjusted border-radius */
+    background-color: #076B66; /* Set background color to #076B66 */
+    border: none;
+    color: #ffffff; 
+}
+
+/* Added styles for the "Do you have an account?" section */
+.mt-3 {
+    text-align: center;
+    color: #076B66;
+    margin-top: 15px;
+    position: absolute;
+    top: 340px;
+}
+
+.ms-1 {
+    display: inline-block;
+    margin-left: 5px; /* Adjusted margin for better spacing */
+    font-weight: bold; /* Added to make the text bold */
+    text-decoration: none; /* Removed underline */
+    color:  #076B66; /* Adjusted text color */
+}
+
+
+
+
+.image-container {
+flex: 1;
+text-align: center;
+position: relative;
+}
+
+.image-container img {
+position: absolute;
+right: 120px;
+bottom: -6px;
+width: 350px;
+height: 413px;
+}
+
+
+
+
+
+
+
