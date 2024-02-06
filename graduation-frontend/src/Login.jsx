@@ -11,7 +11,7 @@ import { IoKeyOutline , IoMailOutline } from 'react-icons/io5';
 import { PiSignInBold } from "react-icons/pi";
 
 
-export default function Login() {
+export default function Login(props) {
 
 
     const [isLoginPopupOpen, setIsLoginPopupOpen] = useState(true);
@@ -69,9 +69,11 @@ export default function Login() {
         
             if(data.message === 'success')   //success login
             {
-                //props.saveUserData();
-
                 setIsLoading(false);
+                //take user's data and storage it in his profile;
+                localStorage.setItem('userToken', data.token);
+                //call function saveUserData: up->
+                props.saveUserData();
                 //Navigate to home;
                 navigate('/home');
             }

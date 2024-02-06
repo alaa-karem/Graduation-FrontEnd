@@ -15,8 +15,19 @@ import { Route, Routes } from 'react-router-dom';
 import Cities from './Cities';
 import CarRental from './CarRental';
 import ForgotPassword from './ForgotPassword';
+import { useState } from 'react';
+import { jwtDecode } from 'jwt-decode';
 
 function App() {
+
+  const [userData , setUserData] = useState(null);
+  function saveUserData(){
+    let encodedToken = localStorage.getItem('userToken');
+    let decodedToken = jwtDecode(encodedToken);
+    setUserData(decodedToken);
+  }
+
+
   return (
     <div className="App">
       <Navbar/>
@@ -32,7 +43,7 @@ function App() {
             <Route path='register-as-tourist' element={<RegisterAsTourist/>}/>
             <Route path='register-as-tourguide' element={<RegisterAsTourGuide/>}/>
           </Route>  
-          <Route path='login' element={<Login/>}/>
+          <Route path='login' element={<Login saveUserData={saveUserData} />}/>
           <Route path='/forgot-password' element={<ForgotPassword/>}/>
 
         </Routes>
