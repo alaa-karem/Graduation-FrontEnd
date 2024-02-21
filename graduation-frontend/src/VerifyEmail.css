@@ -1,0 +1,174 @@
+.popup-container-verify {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    padding-right: 40px;;
+    text-align: center;
+    position: relative;
+}
+
+.icon-arrow-left-verifypassword{
+    position: absolute;
+    width: 25.62px;
+    height: 19.46px;
+    top: 35.8px;
+    left: 96.88px;
+    color: #000000;
+}
+
+.verify-password p{
+    position: absolute;
+    width: 224px;
+    height: 30px;
+    top: 31px;
+    left: 200px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48px;
+    color: #3770AD;
+}
+
+.icon-verify-background{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 90px;
+    left: 280px;
+    background-color: #E9E9E9;
+    border-radius: 50%;
+}
+
+.icon-verifypassword{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 110px;
+    left: 295px;
+}
+
+.content-message-verifypassword {
+    position: absolute;
+    width: 246px;
+    top: 186px;
+    left: 200px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5; /* Adjust line height for better spacing */
+    text-align: center;
+    color: #3770AD;
+    white-space: normal; /* Allow text to wrap */
+}
+
+.lines .l1{
+    position: absolute;
+    background-color: #3770AD;
+    width: 55px;
+    height: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48;
+    top: 300px;
+    left: 200px;
+}
+.lines .l2{
+    position: absolute;
+    background-color: #3770AD;
+    width: 55px;
+    height: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48;
+    top: 300px;
+    left: 270px;
+}
+.lines .l3{
+    position: absolute;
+    background-color: #3770AD;
+    width: 55px;
+    height: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48;
+    top: 300px;
+    left: 340px;
+}
+
+.lines .l4{
+    position: absolute;
+    background-color: #3770AD;
+    width: 55px;
+    height: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48;
+    top: 300px;
+    left: 410px;
+}
+.form-container-verify .input-one{
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    /* background-color: #5F413E; */
+    top: 265px;
+    left: 216px;
+    border: none;
+}
+
+.form-container-verify .input-two{
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    /* background-color: #5F413E; */
+    top: 265px;
+    left: 286px;
+    border: none;
+}
+
+.form-container-verify .input-three{
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    /* background-color: #5F413E; */
+    top: 265px;
+    left: 356px;
+    border: none;
+}
+
+.form-container-verify .input-four{
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    /* background-color: #5F413E; */
+    top: 265px;
+    left: 426px;
+    border: none;
+}
+
+
+.form-container-verify input:focus {
+    outline: none; /* Hide the outline when focused */
+}
+
+
+.btn-verify-email{
+    position: absolute;
+    Width: 150px;
+    height: 40px;
+    top: 341px;
+    left: 255px;
+    border-radius: 30px;
+    background-color: #3770AD;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.29px;
+    color: #FFFFFF;
+}

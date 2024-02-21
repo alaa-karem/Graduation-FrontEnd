@@ -1,0 +1,211 @@
+.popup-container {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    padding-right: 20px; /* Add some padding to the right */
+}
+
+.right-section {
+    width: 60%; /* Adjust the width as needed */
+    padding: 20px;
+    position: relative;
+}
+
+
+
+.register-as {
+    /* Style for the "Register As" text */
+    font-size: 25px;
+    font-weight: 400;
+    width: 141px;
+    height: 30px;
+    color: #000000;
+    text-align: right;
+    position: absolute;
+    right: 240px;
+    top: 18px;
+}
+
+.line {
+    /* Style for the line */
+    margin: 10px 0;
+    height: 3px; /* Adjust the height of the line */
+    background-color: #3770AD; /* Use the specified color */
+    width: 150px; /* Make the line span the full width */
+    position: absolute;
+    left: 90px;
+    top: 55px;
+    /* text-align: center; */
+}
+
+
+
+.photos-container {
+    display: flex;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Adjust margin between photo containers */
+    max-width: 50%; /* Limit the width of the photo container */
+}
+
+.photo {
+    margin-bottom: 10px; /* Adjust margin between photo and label */
+    border-radius: 29px; /* Adjust border-radius to increase the curve */
+}
+
+.photo-details {
+    display: flex;
+    
+    align-items: center;
+}
+
+.photo-details input[type='radio'] {
+    margin-right: 10px; /* Adjust margin between radio button and label */
+}
+
+
+.photo img {
+    width: 120px; /* Adjust image width as needed */
+    height: 120px;
+    border-radius: 45px; /* Apply the same border-radius as the parent */
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    max-height: 100%; /* Ensure images don't exceed the height of their container */
+}
+
+
+
+.photo label {
+    /* Style for labels accompanying the photos */
+    display: block;
+}
+
+
+.btn-text {
+    background-color: #3770AD; /* Color like the line */
+    border: none;
+    border-radius: 30px; /* Radius of 30px */
+    width: 209px; /* Width of 209px */
+    height: 40px; /* Adjust height as needed */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    position: absolute;
+    right: 180px; /* Adjust the right position */
+    top: 320px; /* Adjust the top position */
+
+}
+
+/* Left Section */
+.left-section {
+    width: 40%; /* Adjust the width as needed */
+    padding: 20px;
+    position: relative;
+}
+
+.section-title {
+    margin-bottom: 20px; /* Adjust margin between section titles */
+    /* position: absolute; */
+}
+
+/* .section-title .icon-arrow-left{
+    position: absolute;
+    left: 30px;
+    top: 35px;
+    width: 20px;
+    height: 15px;
+    color: #000000;
+
+} */
+
+
+.section-title p{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 229px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+
+
+.register-type::before{
+    position: absolute;
+    content: "1";
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    left: -40px;
+    top: -5px;
+    background-color: #3770AD;
+}
+
+.register-type {
+    margin-left: 10px; /* Adjust margin between text and icon */
+    position: absolute;
+    /* width: 173px; */
+    top: 95px;
+    left: 60px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5); /* Adjust opacity of the text */
+}
+
+.register-type::after{
+    position: absolute;
+    content: "";
+    Width: 1px;
+    height: 130px;
+    left: -20px;
+    top: 43px;
+    background-color: #000000;
+
+}
+
+.personal-info::before{
+    position: absolute;
+    content: "2";
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #000000;
+    left: -40px;
+    top: -5px;
+    background-color: #F1F1F1;
+}
+.personal-info {
+    margin-left: 10px; /* Adjust margin between text and icon */
+    position: absolute;
+    top: 282px;
+    left: 60px;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.login-already {
+    /* Add styles for your icon here */
+    position: absolute;
+    top: 340px;
+}
+
+.ms-1{
+    display: inline-block;
+    margin-left: 5px; /* Adjusted margin for better spacing */
+    font-weight: bold; /* Added to make the text bold */
+    text-decoration: none; /* Removed underline */
+    color:  #3770AD; /* Adjusted text color */
+}
+

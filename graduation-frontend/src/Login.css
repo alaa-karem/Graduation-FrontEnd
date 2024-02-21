@@ -7,7 +7,8 @@
 .form-container {
     flex: 1;
     position: relative;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px;
+     /* Added padding for better spacing */
 }
 
 .welcome {
@@ -17,17 +18,19 @@
     position: absolute;
     left: 12%;
     font-weight: bold;
+    color: #3770AD;
+    top: 30px;
 }
 
-.icon-signin {
+/* .icon-signin {
     position: absolute;
     width: 20px;
     height: 20px;
     left: 36%;
-    top: 80px; /* Adjusted top position for better alignment */
+    top: 75px;
     transform: translateX(-50%);
-    color:  #076B66;
-}
+    color:  #3770AD;
+} */
 
 .forgot-pass {
     text-align: center;
@@ -35,23 +38,23 @@
     margin-bottom: 20px;
     position: absolute;
     left: 18%;
-    top: 100px;
+    top: 230px;
     font-weight: bold; /* Added to make the text bold */
     text-decoration: none; /* Removed underline */
-    color:  #076B66; /* Adjusted text color */
+    color:  #3770AD; /* Adjusted text color */
     outline: none;
 }
 
 .ion-icon-email{
     position: absolute;
-    top: 174px;
+    top: 125px;
     left: 44px; /* Adjusted left position for better alignment */
     transform: translateY(-50%);
     color: #6c757d;
 }
 .ion-icon-password{
     position: absolute;
-    top: 235px;
+    top: 187px;
     left: 44px; /* Adjusted left position for better alignment */
     transform: translateY(-50%);
     color: #6c757d;
@@ -64,7 +67,8 @@
     margin-top: 10px;
     padding-left: 30px;
     position: absolute;
-    top: 140px;
+    top: 90px;
+    left: 30px;
     border-radius: 30px;
     background-color: #E9E9E9;
     border: 1px solid transparent; /* Set initial border color to transparent */
@@ -75,7 +79,8 @@
     margin-top: 10px;
     padding-left: 30px;
     position: absolute;
-    top: 200px;
+    top: 152px;
+    left: 30px;
     border-radius: 30px;
     background-color: #E9E9E9;
     border: 1px solid transparent; /* Set initial border color to transparent */
@@ -97,17 +102,18 @@
 .pass-input:focus {
     outline: none;
     border-width: 2px;
-    border-color: #076B66;
+    border-color: #3770AD;
 }
 
 .btn-submit{
     width: calc(100% - 320px);
+    height: 40px;
     margin-top: 20px;
     position: absolute;
-    top: 270px;
+    top: 260px;
     left: 100px;
     border-radius: 50px; /* Adjusted border-radius */
-    background-color: #076B66; /* Set background color to #076B66 */
+    background-color: #3770AD; /* Set background color to #076B66 */
     border: none;
     color: #ffffff; 
 }
@@ -115,7 +121,7 @@
 /* Added styles for the "Do you have an account?" section */
 .mt-3 {
     text-align: center;
-    color: #076B66;
+    color: #3770AD;
     margin-top: 15px;
     position: absolute;
     top: 340px;
@@ -126,7 +132,7 @@
     margin-left: 5px; /* Adjusted margin for better spacing */
     font-weight: bold; /* Added to make the text bold */
     text-decoration: none; /* Removed underline */
-    color:  #076B66; /* Adjusted text color */
+    color:  #3770AD; /* Adjusted text color */
 }
 
 
@@ -140,10 +146,10 @@ position: relative;
 
 .image-container img {
 position: absolute;
-right: 120px;
+right: 80px;
 bottom: -6px;
 width: 350px;
-height: 413px;
+height: 412px;
 }
 
 

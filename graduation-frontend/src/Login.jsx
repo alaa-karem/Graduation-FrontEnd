@@ -5,7 +5,7 @@ import Joi, { func } from 'joi';
 import { useNavigate } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import loginImage from './images/login.jpg';
+import loginImage from './images/loginfinal.jpg';
 import './Login.css'; // Import your custom CSS file for additional styles
 import { IoKeyOutline , IoMailOutline } from 'react-icons/io5';  
 import { PiSignInBold } from "react-icons/pi";
@@ -102,11 +102,11 @@ export default function Login(props) {
         {isLoginPopupOpen && (
             <Popup onClose={closeLoginPopup} open={true} modal closeOnDocumentClick>
                 <div className='popup-container'>
-                    <div className='form-container p-4'>
+                    <div className='form-container '>
 
-                        <h2 className='welcome mb-4'>Welcome Back</h2>
+                        <h2 className='welcome'>Welcome Back</h2>
 
-                        <PiSignInBold  className='icon-signin'/>
+                        {/* <PiSignInBold  className='icon-signin'/> */}
 
                         <Link to='/forgot-password' className='forgot-pass d-block mb-3'>Forgot Your Password?</Link>
 
@@ -131,13 +131,14 @@ export default function Login(props) {
 
                             <div className='mt-3'>
                                 <span>Do you have an account?</span>
-                                <Link to='/register' className='ms-1'>Sign up now</Link>
+                                <Link to='/register-type' className='ms-1'>Sign up now</Link>
                             </div>
                         </form>
-                        </div>
-                        <div className='image-container p-2'>
-                        {/* Add your image component or img tag here */}
-                        <img src={loginImage} alt="Image" className='img-fluid' />
+                    </div>
+                    
+                    <div className='image-container '>
+                            {/* Add your image component or img tag here */}
+                            <img src={loginImage} alt="Image" className='img-fluid' />
                     </div>
                 </div>
             </Popup>

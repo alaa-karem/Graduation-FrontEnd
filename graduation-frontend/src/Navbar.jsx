@@ -41,7 +41,7 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="register">Register</Link>
+                        <Link className="nav-link active" aria-current="page" to="register-type">Register</Link>
                         </li>
 
                         <li className="nav-item">
